@@ -1,0 +1,6 @@
+# gap cam
+Python3 cam_gap.py --model vgg16_cam2 --pretrained ./checkpoints/vgg16_cam2_20epochs.pth
+# test
+python test.py –pretrained xxxx –model xxxxx –img_size xxx
+# train
+python train.py –epoch xxx –batch_size 200 –model xxxx –freq 10
